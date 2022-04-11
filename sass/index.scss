@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.headerIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.escudoIndex {
+    max-width: 10rem;
+}
+
+
+.actualidad, .proxima, .vs {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.mainIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.tabla {
+    width: 80rem;
+    margin: 10px auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.seguinos, .redes {
+    text-align: center;
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.iconred {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
