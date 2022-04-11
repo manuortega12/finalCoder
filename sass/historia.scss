@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tituloHistoria {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+.parrafoHistoria {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.escudosAv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.imgHistoria {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 30rem;
+    height: auto;
+}
+
+.imgEscudos {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.seguinos, .redes {
+    text-align: center;
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+.iconred {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
