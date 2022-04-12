@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/galeria.css" />
+    <title>Galería/Multimedia</title>
+  </head>
+  <body>
+    <div class="d-flex justify-content-center">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../page/historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/mas.html"
+                  >Más sobre el Rojo</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <main class="conteiner">
+      <section>
+        <div>
+          <h2 class="tituloGaleria">Galeria de fotos del club</h2>
+        </div>
+        <div class="fotos">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide w-50 mx-auto"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotocalentamiento2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotodelabarra.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotodelequipo.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotoentranamiento.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotoentrenamiento2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotoentrenamiento3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotoreconocimiento.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotoretro.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/fotoretro2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="imgGaleria"
+                  src="../multimedia/fotos/previopartido.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2 class="tituloGaleria">Videos</h2>
+        </div>
+        <div class="videoGaleria">
+          <video
+            class="video"
+            src="../multimedia/video/video.mp4"
+            controls
+          ></video>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h5 class="seguinos">Seguinos</h5>
+      </div>
+      <div class="redes">
+        <a
+          href="https://www.facebook.com/Club-Atl%C3%A9tico-Avellaneda-CBA-109411914804818"
+          target="blank"
+        >
+          <img
+            class="iconred"
+            src="../icon/facebook.png"
+            alt="ingresar a facebook"
+        /></a>
+        <a href="https://www.instagram.com/club.avellaneda/" target="blank">
+          <img
+            class="iconred"
+            src="../icon/instagram.png"
+            alt="ingresar a instagram"
+        /></a>
+        <a href="https://twitter.com/Avellaneda1Club" target="blank">
+          <img
+            class="iconred"
+            src="../icon/twitter.png"
+            alt="ingresar a twitter"
+        /></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
