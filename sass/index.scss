@@ -32,7 +32,7 @@
 }
 
 .tabla {
-    width: 80rem;
+    width: 60rem;
     margin: 10px auto;
 }
 
@@ -51,3 +51,19 @@
     margin: 0.5rem;
     padding: 0.5rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    .body {
+      display: flex;
+      flex-direction: column;
+    }
+    .headerIndex {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+}
+

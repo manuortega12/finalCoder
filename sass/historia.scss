@@ -17,10 +17,9 @@
 .parrafoHistoria {
     display: flex;
     flex-direction: row;
-    width: auto;
-    justify-content: center;
-    align-content: center;
-    margin: 1rem;
+    width: 60rem;
+    height: auto;
+    margin: 1rem auto;
     padding: 1rem;
 }
 
@@ -57,4 +56,46 @@
 .iconred {
     margin: 0.5rem;
     padding: 0.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .body {
+      display: flex;
+      flex-direction: column;
+    }
+    .escudosAv {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .parrafoHistoria {
+        width: 30rem;
+        height: auto;
+    }
+
+    .imgHistoria {
+        width: 15rem;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .parrafoHistoria {
+        width: 20rem;
+        height: auto;
+    }
+
+    .tituloHistoria {
+        display: grid;
+        width: 16rem;
+        height: 8rem;
+        margin: 0.1rem auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+
 }
