@@ -67,11 +67,11 @@
             flex-direction: column;
   }
   .imgGaleria {
-    width: 600px;
-    height: auto;
+    width: 400px;
+    height: 300px;
   }
   .video {
-    width: 600px;
+    width: 400px;
     height: auto;
   }
 }
@@ -87,11 +87,11 @@
             flex-direction: column;
   }
   .imgGaleria {
-    width: 200px;
-    height: auto;
+    width: 300px;
+    height: 200px;
   }
   .video {
-    width: 200px;
+    width: 300px;
     height: auto;
   }
 }
