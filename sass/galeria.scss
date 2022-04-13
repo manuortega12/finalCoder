@@ -36,41 +36,17 @@
     padding: 0.5rem;
 }
 
-.imgGaleria {
-    width: 1000px;
-    height: 600px;
-}
-
 
 @media screen and (max-width: 768px) {
-    .body {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .imgGaleria {
-        width: 400px;
-        height: 300px;
-    }
     .video {
         width: 400px;
         height: auto;
-
     }
 }
 
 @media screen and (max-width: 480px) {
-    .body {
-        display: flex;
-        flex-direction: column;
-    }
-    .imgGaleria {
-        width: 300px;
-        height: 150px;
-    }
     .video {
-        width: 200px;
+        width: 350px;
         height: auto;
-
     }
 }
