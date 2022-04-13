@@ -40,3 +40,36 @@
     width: 1000px;
     height: 600px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgGaleria {
+        width: 600px;
+        height: auto;
+    }
+    .video {
+        width: 600px;
+        height: auto;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgGaleria {
+        width: 200px;
+        height: auto;
+    }
+    .video {
+        width: 200px;
+        height: auto;
+
+    }
+}
