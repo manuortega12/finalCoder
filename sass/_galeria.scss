@@ -1,14 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .multimedia {
     display: flex;
     flex-direction: column;
 }
-
 
 .tituloGaleria {
     text-align: center;
@@ -19,23 +12,6 @@
     justify-content: center;
     align-content: center;
 }
-
-.footer {
-    display: flex;
-    flex-direction: column;
-}
-
-.seguinos, .redes {
-    text-align: center;
-    margin: 0.2rem;
-    padding: 0.2rem;
-}
-
-.iconred {
-    margin: 0.5rem;
-    padding: 0.5rem;
-}
-
 
 @media screen and (max-width: 768px) {
     .video {

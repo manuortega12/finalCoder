@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 .tituloUbicacion, .sugerencia {
     text-align: center;
@@ -47,21 +41,5 @@
     height: 2rem;
     margin: 0.1rem auto;
     padding: 0.1rem;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-}
-
-.seguinos, .redes {
-    text-align: center;
-    margin: 0.2rem;
-    padding: 0.2rem;
-}
-
-.iconred {
-    margin: 0.5rem;
-    padding: 0.5rem;
 }
 

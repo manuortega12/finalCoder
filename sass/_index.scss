@@ -1,9 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// comienza estilos para el index
 
+body {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+}
 
 .headerIndex {
     display: grid;
@@ -11,17 +11,18 @@
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
-}
-
-.escudoIndex {
-    max-width: 10rem;
-}
-
-
-.actualidad, .proxima, .vs {
     margin: 1rem;
     padding: 1rem;
-    text-align: center;
+
+    .escudoIndex {
+        max-width: 10rem;
+    }
+
+    .titulo {
+        text-transform: uppercase;
+        font-family: 'Acme', sans-serif;
+        font-family: 'Dosis', sans-serif;
+    }
 }
 
 .mainIndex {
@@ -29,29 +30,40 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-}
 
-.table {
-    width: 60rem;
-    margin: 10px auto;
+    .actualidad, .proxima, .vs {
+        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .table {
+        width: 60rem;
+        margin: 10px auto;
+    }
 }
 
 .footer {
     display: flex;
     flex-direction: column;
-}
 
-.seguinos, .redes {
-    text-align: center;
-    margin: 0.2rem;
-    padding: 0.2rem;
-}
+    .seguinos, .redes {
+        text-align: center;
+        margin: 0.2rem;
+        padding: 0.2rem;
+    }
 
-.iconred {
-    margin: 0.5rem;
-    padding: 0.5rem;
-}
+    .redes {
+        .iconred {
+            margin: 0.5rem;
+            padding: 0.5rem;
+        }
+        .iconred:hover {
+            transform: scale(1.2,1.2)
+        }
+    }
 
+}
 
 @media screen and (max-width: 768px) {
     .body {
@@ -67,3 +79,4 @@
 
 }
 
+// terminan estilos pare el index
