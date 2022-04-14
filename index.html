@@ -22,12 +22,20 @@
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Ubuntu+Mono&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/estilos.css" />
     <title>Club Atlético Avellaneda</title>
   </head>
   <body>
     <header class="headerIndex">
-      <h1 class="titulo">Club Atlético Avellaneda</h1>
+      <div class="titulo">
+        <h1 class="animate__animated animate__flip">
+          Club Atlético Avellaneda
+        </h1>
+      </div>
       <img
         class="escudoIndex"
         src="./multimedia/fotos/avellaneda1.png"
@@ -314,8 +322,12 @@
       </section>
 
       <section>
-        <h3 class="proxima">Próxima fecha</h3>
-        <p class="vs">Avellaneda VS USV</p>
+        <h3 class="proxima wow animate__animated animate__fadeInLeftBig">
+          Próxima fecha
+        </h3>
+        <p class="vs wow animate__animated animate__fadeInRightBig">
+          Avellaneda VS USV
+        </p>
       </section>
     </main>
 
@@ -348,6 +360,10 @@
       </div>
     </footer>
 
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
