@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.headerIndex {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.escudoIndex {
+  max-width: 10rem;
+}
+
+.actualidad, .proxima, .vs {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mainIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.table {
+  width: 60rem;
+  margin: 10px auto;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seguinos, .redes {
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+.iconred {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .headerIndex {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tituloHistoria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.parrafoHistoria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 60rem;
+  height: auto;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.escudosAv {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.imgHistoria {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 30rem;
+  height: auto;
+}
+
+.imgEscudos {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seguinos, .redes {
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+.iconred {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .escudosAv {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .parrafoHistoria {
+    width: 30rem;
+    height: auto;
+  }
+  .imgHistoria {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .parrafoHistoria {
+    width: 20rem;
+    height: auto;
+  }
+  .tituloHistoria {
+    display: -ms-grid;
+    display: grid;
+    width: 16rem;
+    height: 8rem;
+    margin: 0.1rem auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.multimedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tituloGaleria {
+  text-align: center;
+}
+
+.videoGaleria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seguinos, .redes {
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+.iconred {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .video {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .video {
+    width: 350px;
+    height: auto;
+  }
+}
+
+.acordion {
+  width: 150vh;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
+
+.tituloMas {
+  text-align: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seguinos, .redes {
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+.iconred {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .acordion {
+    width: 80vh;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .acordion {
+    width: 45vh;
+    margin: 0.1rem auto;
+    padding: 0.1rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tituloUbicacion, .sugerencia {
+  text-align: center;
+}
+
+.ubicacion {
+  margin: 1rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.tituloOpinion {
+  text-align: center;
+  margin: 0.1rem auto;
+  padding: 0.1rem;
+}
+
+.formulario, .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.label, .datos {
+  width: 20rem;
+  height: 3rem;
+  margin: 2px auto;
+  padding: 2px;
+}
+
+.opinion {
+  width: 20rem;
+  height: 10rem;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.boton {
+  width: 5rem;
+  height: 2rem;
+  margin: 0.1rem auto;
+  padding: 0.1rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.seguinos, .redes {
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+
+.iconred {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+/*# sourceMappingURL=estilos.css.map */
