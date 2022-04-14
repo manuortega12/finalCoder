@@ -17,6 +17,31 @@
     align-content: center;
 }
 
+.tituloOpinion {
+    text-align: center;
+    margin: 0.1rem auto;
+    padding: 0.1rem;
+}
+
+.formulario, .items {
+    display: flex;
+    flex-direction: column;
+}
+
+.label, .datos {
+    width: 20rem;
+    height: 3rem;
+    margin: 2px auto;
+    padding: 2px;
+}
+
+.opinion {
+    width: 20rem;
+    height: 10rem;
+    margin: 2rem auto;
+
+}
+
 .footer {
     display: flex;
     flex-direction: column;

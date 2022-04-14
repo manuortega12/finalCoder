@@ -77,62 +77,52 @@
 
       <div>
         <section>
-          <div>
-            <h2 class="sugerencia">Dejanos tu opinión</h2>
-          </div>
-          <div>
-            <div class="col-md-4 mx-auto">
-              <div>
-                <label for="validationDefault01" class="form-label"
-                  >Nombre</label
-                >
-                <input
+          <fieldset>
+            <legend class="tituloOpinion">
+              Completa lo siguiente y dejanos tu comentario
+            </legend>
+            <form action="">
+              <div class="items">
+                <label class="label" for="nombre">Completa con tu nombre</label
+                ><input
+                  class="datos"
                   type="text"
-                  class="form-control"
-                  id="validationDefault01s"
-                  value=""
-                  required
+                  name="nombre"
+                  placeholder="Manuel"
                 />
               </div>
-              <div>
-                <label for="validationDefault02" class="form-label"
-                  >Apellido</label
-                >
-                <input
+              <div class="items">
+                <label class="label" for="apellido"
+                  >Completa con tu apellido</label
+                ><input
+                  class="datos"
                   type="text"
-                  class="form-control"
-                  id="validationDefault02"
-                  value=""
-                  required
+                  name="apellido"
+                  placeholder="Ortega"
                 />
               </div>
-              <div>
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Correo electronico</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder=""
-                  required
-                />
+              <div class="items">
+                <label class="label" for="email">Correo electronico *</label
+                ><input class="datos" type="email" name="email" required />
               </div>
-            </div>
-            <div class="col-md-4 mx-auto">
-              <label for="exampleFormControlTextarea1" class="form-label"
-                >Sugerencias</label
-              >
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
-            <div class="col-md-4 mx-auto">
-              <button class="btn btn-primary" type="submit">Enviar</button>
-            </div>
-          </div>
+              <div class="items">
+                <label class="label" for="comentario">Sugerencias</label>
+                <textarea
+                  class="opinion"
+                  name="comentario"
+                  id=""
+                  cols="60"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="items">
+                <input class="datos" type="submit" value="Enviar" />
+              </div>
+              <div class="items">
+                <input class="datos" type="reset" value="Borrar" />
+              </div>
+            </form>
+          </fieldset>
         </section>
       </div>
     </main>

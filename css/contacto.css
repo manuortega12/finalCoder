@@ -22,6 +22,35 @@
       align-content: center;
 }
 
+.tituloOpinion {
+  text-align: center;
+  margin: 0.1rem auto;
+  padding: 0.1rem;
+}
+
+.formulario, .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.label, .datos {
+  width: 20rem;
+  height: 3rem;
+  margin: 2px auto;
+  padding: 2px;
+}
+
+.opinion {
+  width: 20rem;
+  height: 10rem;
+  margin: 2rem auto;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
