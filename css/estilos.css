@@ -51,13 +51,10 @@ body {
       align-content: center;
 }
 
-.mainIndex .actualidad, .mainIndex .proxima, .mainIndex .vs {
+.mainIndex .actualidad, .mainIndex .actualidad, .mainIndex .proxima, .mainIndex .vs, .mainIndex .vs {
   margin: 1rem;
   padding: 1rem;
   text-align: center;
-}
-
-.mainIndex .proxima {
   border-top: double 10px;
   text-transform: uppercase;
 }
