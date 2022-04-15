@@ -57,6 +57,19 @@ body {
   text-align: center;
 }
 
+.mainIndex .proxima {
+  border-top: double 10px;
+  text-transform: uppercase;
+}
+
+.mainIndex .vs {
+  background-color: #ffffff;
+  color: #f36969;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
 .mainIndex .table {
   width: 60rem;
   margin: 10px auto;
@@ -70,12 +83,20 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #4242f1;
+  border-radius: 10px;
+  margin: 0.1rem;
+  padding: 0.1rem;
 }
 
 .footer .seguinos, .footer .redes {
   text-align: center;
   margin: 0.2rem;
   padding: 0.2rem;
+}
+
+.footer .seguinos {
+  color: #ffffff;
 }
 
 .footer .redes .iconred {
