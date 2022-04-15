@@ -1,8 +1,9 @@
 // comienza estilos para el index
+@import "variables";
 
 body {
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: $fontBody;
+    font-family: $fontBody2;
 }
 
 .headerIndex {
@@ -57,9 +58,9 @@ body {
         .iconred {
             margin: 0.5rem;
             padding: 0.5rem;
-        }
-        .iconred:hover {
-            transform: scale(1.2,1.2)
+            &:hover {
+                transform: scale(1.2,1.2)
+            }
         }
     }
 
