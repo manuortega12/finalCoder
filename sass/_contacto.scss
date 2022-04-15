@@ -1,3 +1,4 @@
+@import "variables";
 @import "mixins";
 
 .tituloUbicacion, .sugerencia {
@@ -21,11 +22,22 @@
     @include displayFlex();
 }
 
+.items {
+    flex-direction: column; 
+    justify-content: flex-end;
+}
+
 .label, .datos {
     width: 20rem;
     height: 3rem;
     margin: 2px auto;
     padding: 2px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .opinion {
@@ -42,3 +54,30 @@
     padding: 0.1rem;
 }
 
+.botones {
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+.formulario {
+    border-top: solid 2px $bgBlue;
+    width: 80vh;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .formulario, .label, .datos {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .opinion {
+        width: 12rem;
+        height: auto;
+    }
+}
