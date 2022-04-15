@@ -1,3 +1,4 @@
+@import "mixins";
 
 .tituloHistoria {
     display: flex;
@@ -5,8 +6,7 @@
     width: auto;
     justify-content: center;
     align-content: center;
-    margin: 1rem;
-    padding: 1rem;
+    @include marginPadding1;
 }
 .parrafoHistoria {
     display: flex;
@@ -38,14 +38,12 @@
 
 @media screen and (max-width: 768px) {
     .body {
-      display: flex;
-      flex-direction: column;
+        @include displayFlex();
     }
     .escudosAv {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
-        margin: 1rem;
-        padding: 1rem;
+        @include marginPadding1;
     }
 
     .parrafoHistoria {
@@ -73,6 +71,4 @@
         justify-content: center;
         align-content: center;
     }
-
-
 }

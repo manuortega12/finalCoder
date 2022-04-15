@@ -1,5 +1,6 @@
 // comienza estilos para el index
 @import "variables";
+@import "mixins";
 
 body {
     font-family: $fontBody;
@@ -13,8 +14,7 @@ body {
     grid-template-rows: 1fr;
     justify-items: center;
     align-items: center;
-    margin: 1rem;
-    padding: 1rem;
+    @include marginPadding1;
 
     .escudoIndex {
         max-width: 10rem;
@@ -28,16 +28,15 @@ body {
 }
 
 .mainIndex {
-    display: flex;
-    flex-direction: column;
+    @include displayFlex();
     justify-content: center;
     align-content: center;
 
     .actualidad, .proxima, .vs {
-        margin: 1rem;
-        padding: 1rem;
+        @include marginPadding1;
         text-align: center;
-
+    
+        // aplico extend
         @extend .proxima;
             border-top: double 10px;
             text-transform: uppercase;  
@@ -96,7 +95,6 @@ body {
             }
         }
     }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -107,8 +105,7 @@ body {
     .headerIndex {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
-        margin: 1rem;
-        padding: 1rem;
+        @include marginPadding1;
     }
 
 }

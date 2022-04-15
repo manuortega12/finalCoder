@@ -1,0 +1,9 @@
+@mixin displayFlex {
+    display: flex;
+    flex-direction: column;    
+}
+
+@mixin marginPadding1 {
+    margin: 1rem;
+    padding: 1rem;    
+}
