@@ -65,8 +65,8 @@ body {
   border-radius: 5px;
   margin: 0.5rem;
   padding: 0.5rem;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
   -webkit-animation-duration: infinite;
@@ -104,7 +104,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #6666eb;
+  background-color: #3131ff;
   border-radius: 10px;
   margin: 0.1rem;
   padding: 0.1rem;
@@ -410,7 +410,7 @@ body {
 }
 
 .formulario {
-  border-top: solid 2px #6666eb;
+  border-top: solid 2px #3131ff;
   width: 80vh;
   margin: 1rem auto;
   padding: 1rem;
