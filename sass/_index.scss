@@ -6,6 +6,18 @@ body {
     font-family: $fontBody;
     font-family: $fontBody2;
     background-color: $bgRed;
+
+    .container {
+        .navbar {
+            background-color: $bgBlue;
+            border-radius: 10px;
+        }
+        .nav-link {
+            color: white;
+        &:hover{
+            color: $bgRed;
+        }}
+    }
 }
 
 .headerIndex {
@@ -20,10 +32,10 @@ body {
         max-width: 10rem;
     }
 
-    .titulo {
+    .titulo .animate__animated{
+        font-family: $fontTitulo;
+        font-family: $fontTitulo2;
         text-transform: uppercase;
-        font-family: 'Acme', sans-serif;
-        font-family: 'Dosis', sans-serif;
     }
 }
 
@@ -48,7 +60,7 @@ body {
         border-radius: 5px;
         margin: 0.5rem;
         padding: 0.5rem;
-        animation-duration: 5s;
+        animation-duration: 8s;
         animation-name: aparecer;
         animation-duration: infinite;
     }

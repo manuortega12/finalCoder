@@ -11,6 +11,19 @@ body {
   background-color: #f36969;
 }
 
+body .container .navbar {
+  background-color: #3131ff;
+  border-radius: 10px;
+}
+
+body .container .nav-link {
+  color: white;
+}
+
+body .container .nav-link:hover {
+  color: #f36969;
+}
+
 .headerIndex {
   display: -ms-grid;
   display: grid;
@@ -30,10 +43,10 @@ body {
   max-width: 10rem;
 }
 
-.headerIndex .titulo {
+.headerIndex .titulo .animate__animated {
+  font-family: "Acme", sans-serif;
+  font-family: "Dosis", sans-serif;
   text-transform: uppercase;
-  font-family: 'Acme', sans-serif;
-  font-family: 'Dosis', sans-serif;
 }
 
 .mainIndex {
@@ -65,8 +78,8 @@ body {
   border-radius: 5px;
   margin: 0.5rem;
   padding: 0.5rem;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
   -webkit-animation-name: aparecer;
           animation-name: aparecer;
   -webkit-animation-duration: infinite;
