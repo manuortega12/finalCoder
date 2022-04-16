@@ -8,6 +8,11 @@
     align-content: center;
     @include marginPadding1;
 }
+
+.navbar {
+    @include marginPadding1;
+}
+
 .parrafoHistoria {
     display: flex;
     flex-direction: row;

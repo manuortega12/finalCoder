@@ -181,6 +181,11 @@ body .container .nav-link:hover {
   padding: 1rem;
 }
 
+.navbar {
+  margin: 1rem;
+  padding: 1rem;
+}
+
 .parrafoHistoria {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -276,8 +281,15 @@ body .container .nav-link:hover {
           flex-direction: column;
 }
 
+.navbar {
+  margin: 1rem;
+  padding: 1rem;
+}
+
 .tituloGaleria {
   text-align: center;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .videoGaleria {
@@ -313,6 +325,12 @@ body .container .nav-link:hover {
 
 .tituloMas {
   text-align: center;
+}
+
+.accordion-body {
+  background-color: #f36969;
+  color: #ffffff;
+  border: solid 2px;
 }
 
 @media screen and (max-width: 768px) {
@@ -379,6 +397,7 @@ body .container .nav-link:hover {
   height: 3rem;
   margin: 2px auto;
   padding: 2px;
+  border-radius: 5px;
 }
 
 .label {
@@ -399,6 +418,7 @@ body .container .nav-link:hover {
   height: 10rem;
   margin: 1rem auto;
   padding: 1rem;
+  border-radius: 5px;
 }
 
 .boton {
@@ -406,6 +426,12 @@ body .container .nav-link:hover {
   height: 2rem;
   margin: 0.1rem auto;
   padding: 0.1rem;
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #3131ff;
+  color: #ffffff;
 }
 
 .botones {

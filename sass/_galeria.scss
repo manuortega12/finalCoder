@@ -4,8 +4,13 @@
     @include displayFlex();
 }
 
+.navbar {
+    @include marginPadding1;
+}
+
 .tituloGaleria {
     text-align: center;
+    @include marginPadding1;
 }
 
 .videoGaleria {
