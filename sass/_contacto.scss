@@ -1,3 +1,4 @@
+
 @import "variables";
 @import "mixins";
 
@@ -12,68 +13,64 @@
     @include marginPadding1;
 }
 
-.tituloOpinion {
-    text-align: center;
-    margin: 0.1rem auto;
-    padding: 0.1rem;
-}
-
-.formulario, .items {
-    @include displayFlex();
-}
-
-.items {
-    flex-direction: column; 
-    justify-content: flex-end;
-}
-
-.label, .datos {
-    width: 20rem;
-    height: 3rem;
-    margin: 2px auto;
-    padding: 2px;
-    border-radius: 5px;
-}
-
-.label {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-
-.opinion {
-    width: 20rem;
-    height: 10rem;
-    margin: 1rem auto;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-.boton {
-    width: 5rem;
-    height: 2rem;
-    margin: 0.1rem auto;
-    padding: 0.1rem;
-    border-radius: 5px;
-    &:hover {
-        background-color: $bgBlue;
-        color: $bgWhite;
-    }
-}
-
-.botones {
-    display: grid;
-    grid-template-columns: 0.2fr 0.2fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-content: center;
-}
-
 .formulario {
+    @include displayFlex();
     border-top: solid 2px $bgBlue;
     width: 80vh;
     margin: 1rem auto;
     padding: 1rem;
+
+    .tituloOpinion {
+        text-align: center;
+        margin: 0.1rem auto;
+        padding: 0.1rem;
+    }
+
+    .items {
+        flex-direction: column; 
+        justify-content: flex-end;
+    }
+
+    .label, .datos {
+        width: 20rem;
+        height: 3rem;
+        margin: 2px auto;
+        padding: 2px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .opinion {
+        width: 20rem;
+        height: 10rem;
+        margin: 1rem auto;
+        padding: 1rem;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .botones {
+        display: grid;
+        grid-template-columns: 0.1fr 0.1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+    }
+
+    .boton {
+        width: 5rem;
+        height: 2rem;
+        margin: 0.1rem auto;
+        padding: 0.1rem;
+        border-radius: 5px;
+        &:hover {
+            background-color: $bgBlue;
+            color: $bgWhite;
+        }
+    }
 }
 
 @media screen and (max-width: 768px){
