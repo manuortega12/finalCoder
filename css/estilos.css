@@ -277,16 +277,6 @@ body .container .nav-link:hover {
   }
 }
 
-.multimedia {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .navbar {
   margin: 1rem;
   padding: 1rem;
@@ -323,17 +313,17 @@ body .container .nav-link:hover {
   }
 }
 
+.tituloMas {
+  text-align: center;
+}
+
 .acordion {
   width: 150vh;
   margin: 0.5rem auto;
   padding: 0.5rem;
 }
 
-.tituloMas {
-  text-align: center;
-}
-
-.accordion-body {
+.acordion .accordion-body {
   background-color: #f36969;
   color: #ffffff;
   border: solid 2px;

@@ -1,9 +1,5 @@
 @import "mixins";
 
-.multimedia {
-    @include displayFlex();
-}
-
 .navbar {
     @include marginPadding1;
 }

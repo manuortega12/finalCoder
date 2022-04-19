@@ -1,17 +1,19 @@
-.acordion{
-    width: 150vh;
-    margin: 0.5rem auto;
-    padding: 0.5rem;
-}
+@import "variables";
 
 .tituloMas {
     text-align: center;
 }
 
-.accordion-body {
-    background-color: $bgRed;
-    color: $bgWhite;
-    border: solid 2px;
+.acordion{
+    width: 150vh;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+
+    .accordion-body {
+        background-color: $bgRed;
+        color: $bgWhite;
+        border: solid 2px;
+    }    
 }
 
 @media screen and (max-width: 768px) {
