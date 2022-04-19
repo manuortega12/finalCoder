@@ -318,7 +318,7 @@ body .container .nav-link:hover {
 }
 
 .acordion {
-  width: 150vh;
+  width: auto;
   margin: 0.5rem auto;
   padding: 0.5rem;
 }
@@ -327,38 +327,6 @@ body .container .nav-link:hover {
   background-color: #f36969;
   color: #ffffff;
   border: solid 2px;
-}
-
-@media screen and (max-width: 1770px) {
-  .acordion {
-    width: 70vh;
-    margin: 1rem auto;
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .acordion {
-    width: 60vh;
-    margin: 1rem auto;
-    padding: 1rem;
-  }
-}
-
-@media screen and (max-width: 690px) {
-  .acordion {
-    width: 45vh;
-    margin: 0.1rem auto;
-    padding: 0.1rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .acordion {
-    width: 40vh;
-    margin: 0.1rem auto;
-    padding: 0.1rem;
-  }
 }
 
 .tituloUbicacion, .sugerencia {
