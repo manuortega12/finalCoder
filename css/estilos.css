@@ -361,14 +361,6 @@ body .container .nav-link:hover {
   }
 }
 
-@media screen and (max-width: 460px) {
-  .acordion {
-    width: 30vh;
-    margin: 0.1rem auto;
-    padding: 0.1rem;
-  }
-}
-
 .tituloUbicacion, .sugerencia {
   text-align: center;
 }
