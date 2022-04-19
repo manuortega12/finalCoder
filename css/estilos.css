@@ -231,7 +231,7 @@ body .container .nav-link:hover {
           align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   .body {
     display: -webkit-box;
     display: -ms-flexbox;

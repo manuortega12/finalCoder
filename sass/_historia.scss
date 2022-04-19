@@ -41,7 +41,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     .body {
         @include displayFlex();
     }
@@ -59,7 +59,6 @@
     .imgHistoria {
         width: 15rem;
     }
-
 }
 
 @media screen and (max-width: 480px) {
