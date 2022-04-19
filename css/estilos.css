@@ -337,9 +337,33 @@ body .container .nav-link:hover {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1770px) {
   .acordion {
-    width: 45vh;
+    width: 70vh;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .acordion {
+    width: 60vh;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .acordion {
+    width: 40vh;
+    margin: 0.1rem auto;
+    padding: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .acordion {
+    width: 30vh;
     margin: 0.1rem auto;
     padding: 0.1rem;
   }
