@@ -109,6 +109,23 @@ body {
     }
 }
 
+@media screen and (max-width: 1000px) {
+
+    .headerIndex {
+        .titulo {
+            .animate__animated {
+                text-align: center;
+            }
+        }
+    }
+    .mainIndex {
+        .table {
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     .body {
       display: flex;
