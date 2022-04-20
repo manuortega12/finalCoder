@@ -328,7 +328,7 @@ body .container .nav-link:hover {
 }
 
 .acordion {
-  width: auto;
+  width: 150vh;
   margin: 0.5rem auto;
   padding: 0.5rem;
 }
@@ -337,6 +337,28 @@ body .container .nav-link:hover {
   background-color: #f36969;
   color: #ffffff;
   border: solid 2px;
+}
+
+@media screen and (max-width: 1760px) {
+  .acordion {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .acordion {
+    width: auto;
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .acordion {
+    width: auto;
+    margin: 0.1rem auto;
+    padding: 0.1rem;
+  }
 }
 
 .tituloUbicacion, .sugerencia {
